@@ -1,0 +1,659 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>SmartAdapter</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../../";</script>    <script>const storage = localStorage.getItem("dokka-dark-mode")
+const savedDarkMode = storage ? JSON.parse(storage) : false
+if(savedDarkMode === true){
+    document.getElementsByTagName("html")[0].classList.add("theme-dark")
+}</script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script><link href="../../../styles/style.css" rel="Stylesheet"><link href="../../../styles/jetbrains-mono.css" rel="Stylesheet"><link href="../../../styles/main.css" rel="Stylesheet"><link href="../../../styles/prism.css" rel="Stylesheet"><link href="../../../styles/logo-styles.css" rel="Stylesheet"><script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script><script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script><script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script><script type="text/javascript" src="../../../scripts/main.js" async="async"></script><script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>  </head>
+  <body>
+    <div class="navigation-wrapper" id="navigation-wrapper">
+      <div id="leftToggler"><span class="icon-toggler"></span></div>
+      <div class="library-name"><a href="../../../index.html">smart-adapter-androidx</a></div>
+      <div>0.3.3</div>
+      <div class="pull-right d-flex"><button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+      </div>
+    </div>
+    <div id="container">
+      <div id="leftColumn">
+        <div id="sideMenu"></div>
+      </div>
+      <div id="main"><script type="text/javascript" src="../../../scripts/main.js"></script>
+        <div class="main-content" id="content" pageIds="smart-adapter-androidx::com.ayvytr.adapter/SmartAdapter///PointingToDeclaration//-425731811">
+          <div class="breadcrumbs"><a href="../../../index.html">smart-adapter-androidx</a>/<a href="../index.html">com.ayvytr.adapter</a>/<a href="index.html">SmartAdapter</a></div>
+          <div class="cover ">
+            <h1 class="cover"><span>Smart</span><wbr></wbr><span><span>Adapter</span></span></h1>
+            <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">class </span><a href="index.html">SmartAdapter</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="token punctuation">(</span>list<span class="token operator">: </span><span data-unresolved-link="kotlin.collections/MutableList///PointingToDeclaration/">MutableList</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="token punctuation">, </span>bind<span class="token operator">: </span><a href="../-smart-container/index.html">SmartContainer</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="token operator">?</span><span class="token punctuation">)</span> : <span data-unresolved-link="androidx.recyclerview.widget/RecyclerView.Adapter///PointingToDeclaration/">RecyclerView.Adapter</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../-smart-view-holder/index.html">SmartViewHolder</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="token operator">&gt; </span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><p class="paragraph"><span data-unresolved-link="androidx.recyclerview.widget/RecyclerView.Adapter///PointingToDeclaration/">RecyclerView.Adapter</span>的继承类，可以继承重写open方法，可以使用<a href="../smart.html">smart</a>满足大多数需求.</p><h4 class="">Author</h4><p class="paragraph">Ayvytr <a href="https://github.com/Ayvytr" target="_blank">'s GitHub</a></p><h4 class="">Since</h4><p class="paragraph">0.1.0</p></div></div>
+          </div>
+          <div class="tabbedcontent">
+            <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
+            <div class="tabs-section-body">
+              <h2 class="tabbedcontent">Constructors</h2>
+              <div class="table" data-togglable="Constructors"><a data-name="1306087183%2FConstructors%2F-425731811" anchor-label="SmartAdapter" id="1306087183%2FConstructors%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue TabbedContent">
+                    <div class=""><span class="inline-flex"><a href="-smart-adapter.html">SmartAdapter</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1306087183%2FConstructors%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt; </span><a href="-smart-adapter.html"><span class="token function">SmartAdapter</span></a><span class="token punctuation">(</span>list<span class="token operator">: </span><span data-unresolved-link="kotlin.collections/MutableList///PointingToDeclaration/">MutableList</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="token operator"> = </span>mutableListOf()<span class="token punctuation">, </span>bind<span class="token operator">: </span><a href="../-smart-container/index.html">SmartContainer</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="">Functions</h2>
+              <div class="table" data-togglable="Functions"><a data-name="905279932%2FFunctions%2F-425731811" anchor-label="add" id="905279932%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="add.html"><span><span>add</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="905279932%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="add.html"><span class="token function">add</span></a><span class="token punctuation">(</span>item<span class="token operator">: </span><a href="index.html">T</a><span class="token punctuation">, </span>index<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token operator"> = </span>list.size<span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">添加<a href="add.html">item</a>到<a href="list.html">list</a>的<a href="add.html">index</a>,默认是追加到末尾.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="2143324241%2FFunctions%2F-425731811" anchor-label="addAll" id="2143324241%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="add-all.html"><span>add</span><wbr></wbr><span><span>All</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2143324241%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="add-all.html"><span class="token function">addAll</span></a><span class="token punctuation">(</span>items<span class="token operator">: </span><span data-unresolved-link="kotlin.collections/List///PointingToDeclaration/">List</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="token punctuation">, </span>index<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token operator"> = </span>list.size<span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">添加<a href="add-all.html">items</a>到<a href="list.html">list</a>的<a href="add-all.html">index</a>位置，默认追加到末尾.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-795221113%2FFunctions%2F-425731811" anchor-label="bindViewHolder" id="-795221113%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#-795221113%2FFunctions%2F-425731811"><span>bind</span><wbr></wbr><span>View</span><wbr></wbr><span><span>Holder</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-795221113%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html#-795221113%2FFunctions%2F-425731811"><span class="token function">bindViewHolder</span></a><span class="token punctuation">(</span><span><span class="token annotation">@</span><span data-unresolved-link="androidx.annotation/NonNull///PointingToDeclaration/"><span class="token annotation">NonNull</span></span> </span>p0<span class="token operator">: </span><a href="../-smart-view-holder/index.html">SmartViewHolder</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="token punctuation">, </span>p1<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1626930959%2FFunctions%2F-425731811" anchor-label="clear" id="-1626930959%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="clear.html"><span><span>clear</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1626930959%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear.html"><span class="token function">clear</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">清空<a href="list.html">list</a>中所有元素</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-442337770%2FFunctions%2F-425731811" anchor-label="click" id="-442337770%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="click.html"><span><span>click</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-442337770%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="click.html"><span class="token function">click</span></a><span class="token punctuation">(</span>onItemClickListener<span class="token operator">: </span><span class="token punctuation">(</span><span class="token keyword"></span><a href="index.html">T</a><span class="token punctuation">, </span><span class="token keyword"></span>position<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><span class="token keyword"></span><span data-unresolved-link="kotlin/Unit///PointingToDeclaration/">Unit</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">SmartAdapter</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="1423244545%2FFunctions%2F-425731811" anchor-label="createViewHolder" id="1423244545%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#1423244545%2FFunctions%2F-425731811"><span>create</span><wbr></wbr><span>View</span><wbr></wbr><span><span>Holder</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1423244545%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation">@</span><span data-unresolved-link="androidx.annotation/NonNull///PointingToDeclaration/"><span class="token annotation">NonNull</span></span></div></div><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html#1423244545%2FFunctions%2F-425731811"><span class="token function">createViewHolder</span></a><span class="token punctuation">(</span><span><span class="token annotation">@</span><span data-unresolved-link="androidx.annotation/NonNull///PointingToDeclaration/"><span class="token annotation">NonNull</span></span> </span>p0<span class="token operator">: </span><span data-unresolved-link="android.view/ViewGroup///PointingToDeclaration/">ViewGroup</span><span class="token punctuation">, </span>p1<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-smart-view-holder/index.html">SmartViewHolder</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1313604476%2FFunctions%2F-425731811" anchor-label="diff" id="-1313604476%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="diff.html"><span><span>diff</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1313604476%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="diff.html"><span class="token function">diff</span></a><span class="token punctuation">(</span>smartDiffCallback<span class="token operator">: </span><a href="../-smart-diff-callback/index.html">SmartDiffCallback</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="token operator">?</span><span class="token operator"> = </span>SmartDiffCallback()<span class="token punctuation">, </span>detectMovies<span class="token operator">: </span><span data-unresolved-link="kotlin/Boolean///PointingToDeclaration/">Boolean</span><span class="token operator"> = </span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">SmartAdapter</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">设置diff callback(实际使用了<a href="diff.html">smartDiffCallback</a>包装了<span data-unresolved-link="androidx.recyclerview.widget/DiffUtil.Callback///PointingToDeclaration/">DiffUtil.Callback</span>).</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="1358072182%2FFunctions%2F-425731811" anchor-label="getItemCount" id="1358072182%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="get-item-count.html"><span>get</span><wbr></wbr><span>Item</span><wbr></wbr><span><span>Count</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1358072182%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="get-item-count.html"><span class="token function">getItemCount</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="725914875%2FFunctions%2F-425731811" anchor-label="getItemId" id="725914875%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#725914875%2FFunctions%2F-425731811"><span>get</span><wbr></wbr><span>Item</span><wbr></wbr><span><span>Id</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="725914875%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html#725914875%2FFunctions%2F-425731811"><span class="token function">getItemId</span></a><span class="token punctuation">(</span>p0<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="kotlin/Long///PointingToDeclaration/">Long</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-2004915628%2FFunctions%2F-425731811" anchor-label="getItemViewType" id="-2004915628%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="get-item-view-type.html"><span>get</span><wbr></wbr><span>Item</span><wbr></wbr><span>View</span><wbr></wbr><span><span>Type</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2004915628%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="get-item-view-type.html"><span class="token function">getItemViewType</span></a><span class="token punctuation">(</span>position<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="1250177407%2FFunctions%2F-425731811" anchor-label="hasDiff" id="1250177407%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="has-diff.html"><span>has</span><wbr></wbr><span><span>Diff</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1250177407%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="has-diff.html"><span class="token function">hasDiff</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="kotlin/Boolean///PointingToDeclaration/">Boolean</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph"><a href="index.html">SmartAdapter</a>是否设置了<a href="diff-callback.html">diffCallback</a>.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="1092162006%2FFunctions%2F-425731811" anchor-label="hasObservers" id="1092162006%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#1092162006%2FFunctions%2F-425731811"><span>has</span><wbr></wbr><span><span>Observers</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1092162006%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html#1092162006%2FFunctions%2F-425731811"><span class="token function">hasObservers</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="kotlin/Boolean///PointingToDeclaration/">Boolean</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="16685238%2FFunctions%2F-425731811" anchor-label="hasStableIds" id="16685238%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#16685238%2FFunctions%2F-425731811"><span>has</span><wbr></wbr><span>Stable</span><wbr></wbr><span><span>Ids</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="16685238%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html#16685238%2FFunctions%2F-425731811"><span class="token function">hasStableIds</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="kotlin/Boolean///PointingToDeclaration/">Boolean</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1524723333%2FFunctions%2F-425731811" anchor-label="isEmpty" id="-1524723333%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="is-empty.html"><span>is</span><wbr></wbr><span><span>Empty</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1524723333%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="is-empty.html"><span class="token function">isEmpty</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="kotlin/Boolean///PointingToDeclaration/">Boolean</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph"><a href="list.html">list</a>是否为空.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="2110272306%2FFunctions%2F-425731811" anchor-label="longClick" id="2110272306%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="long-click.html"><span>long</span><wbr></wbr><span><span>Click</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2110272306%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="long-click.html"><span class="token function">longClick</span></a><span class="token punctuation">(</span>onItemLongClickListener<span class="token operator">: </span><span class="token punctuation">(</span><span class="token keyword"></span><a href="index.html">T</a><span class="token punctuation">, </span><span class="token keyword"></span>position<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><span class="token keyword"></span><span data-unresolved-link="kotlin/Unit///PointingToDeclaration/">Unit</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">SmartAdapter</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-551570977%2FFunctions%2F-425731811" anchor-label="map" id="-551570977%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="map.html"><span><span>map</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-551570977%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="map.html"><span class="token function">map</span></a><span class="token punctuation">(</span>smartContainer<span class="token operator">: </span><a href="../-smart-container/index.html">SmartContainer</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">SmartAdapter</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">设置<span data-unresolved-link="androidx.recyclerview.widget/RecyclerView///PointingToDeclaration/">RecyclerView</span>多类型item view的方法.</p></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="map.html"><span class="token function">map</span></a><span class="token punctuation">(</span><span><span class="token annotation">@</span><span data-unresolved-link="androidx.annotation/LayoutRes///PointingToDeclaration/"><span class="token annotation">LayoutRes</span></span> </span>layoutId<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">, </span>type<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">, </span>bind<span class="token operator">: </span><span class="token keyword"></span><span data-unresolved-link="android.view/View///PointingToDeclaration/">View</span><span class="token punctuation">.</span><span class="token punctuation">(</span><span class="token keyword"></span><a href="index.html">T</a><span class="token punctuation">, </span><span class="token keyword"></span>position<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><span class="token keyword"></span><span data-unresolved-link="kotlin/Unit///PointingToDeclaration/">Unit</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">SmartAdapter</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1095556076%2FFunctions%2F-425731811" anchor-label="notifyDataSetChanged" id="-1095556076%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#-1095556076%2FFunctions%2F-425731811"><span>notify</span><wbr></wbr><span>Data</span><wbr></wbr><span>Set</span><wbr></wbr><span><span>Changed</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1095556076%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html#-1095556076%2FFunctions%2F-425731811"><span class="token function">notifyDataSetChanged</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="504258021%2FFunctions%2F-425731811" anchor-label="notifyItemChanged" id="504258021%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#-1721030169%2FFunctions%2F-425731811"><span>notify</span><wbr></wbr><span>Item</span><wbr></wbr><span><span>Changed</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="504258021%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html#-1721030169%2FFunctions%2F-425731811"><span class="token function">notifyItemChanged</span></a><span class="token punctuation">(</span>p0<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html#748267402%2FFunctions%2F-425731811"><span class="token function">notifyItemChanged</span></a><span class="token punctuation">(</span>p0<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">, </span><span><span class="token annotation">@</span><span data-unresolved-link="androidx.annotation/Nullable///PointingToDeclaration/"><span class="token annotation">Nullable</span></span> </span>p1<span class="token operator">: </span><span data-unresolved-link="kotlin/Any///PointingToDeclaration/">Any</span><span class="token operator">?</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="2137269507%2FFunctions%2F-425731811" anchor-label="notifyItemInserted" id="2137269507%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#2137269507%2FFunctions%2F-425731811"><span>notify</span><wbr></wbr><span>Item</span><wbr></wbr><span><span>Inserted</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2137269507%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html#2137269507%2FFunctions%2F-425731811"><span class="token function">notifyItemInserted</span></a><span class="token punctuation">(</span>p0<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1694317867%2FFunctions%2F-425731811" anchor-label="notifyItemMoved" id="-1694317867%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#-1694317867%2FFunctions%2F-425731811"><span>notify</span><wbr></wbr><span>Item</span><wbr></wbr><span><span>Moved</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1694317867%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html#-1694317867%2FFunctions%2F-425731811"><span class="token function">notifyItemMoved</span></a><span class="token punctuation">(</span>p0<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">, </span>p1<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="628495561%2FFunctions%2F-425731811" anchor-label="notifyItemRangeChanged" id="628495561%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#1769183193%2FFunctions%2F-425731811"><span>notify</span><wbr></wbr><span>Item</span><wbr></wbr><span>Range</span><wbr></wbr><span><span>Changed</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="628495561%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html#1769183193%2FFunctions%2F-425731811"><span class="token function">notifyItemRangeChanged</span></a><span class="token punctuation">(</span>p0<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">, </span>p1<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html#1916975740%2FFunctions%2F-425731811"><span class="token function">notifyItemRangeChanged</span></a><span class="token punctuation">(</span>p0<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">, </span>p1<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">, </span><span><span class="token annotation">@</span><span data-unresolved-link="androidx.annotation/Nullable///PointingToDeclaration/"><span class="token annotation">Nullable</span></span> </span>p2<span class="token operator">: </span><span data-unresolved-link="kotlin/Any///PointingToDeclaration/">Any</span><span class="token operator">?</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-2104748521%2FFunctions%2F-425731811" anchor-label="notifyItemRangeInserted" id="-2104748521%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#-2104748521%2FFunctions%2F-425731811"><span>notify</span><wbr></wbr><span>Item</span><wbr></wbr><span>Range</span><wbr></wbr><span><span>Inserted</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2104748521%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html#-2104748521%2FFunctions%2F-425731811"><span class="token function">notifyItemRangeInserted</span></a><span class="token punctuation">(</span>p0<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">, </span>p1<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="999899269%2FFunctions%2F-425731811" anchor-label="notifyItemRangeRemoved" id="999899269%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#999899269%2FFunctions%2F-425731811"><span>notify</span><wbr></wbr><span>Item</span><wbr></wbr><span>Range</span><wbr></wbr><span><span>Removed</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="999899269%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html#999899269%2FFunctions%2F-425731811"><span class="token function">notifyItemRangeRemoved</span></a><span class="token punctuation">(</span>p0<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">, </span>p1<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-189254469%2FFunctions%2F-425731811" anchor-label="notifyItemRemoved" id="-189254469%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#-189254469%2FFunctions%2F-425731811"><span>notify</span><wbr></wbr><span>Item</span><wbr></wbr><span><span>Removed</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-189254469%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html#-189254469%2FFunctions%2F-425731811"><span class="token function">notifyItemRemoved</span></a><span class="token punctuation">(</span>p0<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1243461790%2FFunctions%2F-425731811" anchor-label="onAttachedToRecyclerView" id="-1243461790%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#-1243461790%2FFunctions%2F-425731811"><span>on</span><wbr></wbr><span>Attached</span><wbr></wbr><span>To</span><wbr></wbr><span>Recycler</span><wbr></wbr><span><span>View</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1243461790%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html#-1243461790%2FFunctions%2F-425731811"><span class="token function">onAttachedToRecyclerView</span></a><span class="token punctuation">(</span><span><span class="token annotation">@</span><span data-unresolved-link="androidx.annotation/NonNull///PointingToDeclaration/"><span class="token annotation">NonNull</span></span> </span>p0<span class="token operator">: </span><span data-unresolved-link="androidx.recyclerview.widget/RecyclerView///PointingToDeclaration/">RecyclerView</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="1631725604%2FFunctions%2F-425731811" anchor-label="onBindViewHolder" id="1631725604%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="on-bind-view-holder.html"><span>on</span><wbr></wbr><span>Bind</span><wbr></wbr><span>View</span><wbr></wbr><span><span>Holder</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1631725604%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-bind-view-holder.html"><span class="token function">onBindViewHolder</span></a><span class="token punctuation">(</span>holder<span class="token operator">: </span><a href="../-smart-view-holder/index.html">SmartViewHolder</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="token punctuation">, </span>position<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-bind-view-holder.html"><span class="token function">onBindViewHolder</span></a><span class="token punctuation">(</span>holder<span class="token operator">: </span><a href="../-smart-view-holder/index.html">SmartViewHolder</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="token punctuation">, </span>position<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">, </span>payloads<span class="token operator">: </span><span data-unresolved-link="kotlin.collections/MutableList///PointingToDeclaration/">MutableList</span><span class="token operator">&lt;</span><span class="token keyword"></span><span data-unresolved-link="kotlin/Any///PointingToDeclaration/">Any</span><span class="token operator">&gt;</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-44081283%2FFunctions%2F-425731811" anchor-label="onCreateViewHolder" id="-44081283%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="on-create-view-holder.html"><span>on</span><wbr></wbr><span>Create</span><wbr></wbr><span>View</span><wbr></wbr><span><span>Holder</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-44081283%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-create-view-holder.html"><span class="token function">onCreateViewHolder</span></a><span class="token punctuation">(</span>parent<span class="token operator">: </span><span data-unresolved-link="android.view/ViewGroup///PointingToDeclaration/">ViewGroup</span><span class="token punctuation">, </span>viewType<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-smart-view-holder/index.html">SmartViewHolder</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1201433889%2FFunctions%2F-425731811" anchor-label="onDetachedFromRecyclerView" id="-1201433889%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#-1201433889%2FFunctions%2F-425731811"><span>on</span><wbr></wbr><span>Detached</span><wbr></wbr><span>From</span><wbr></wbr><span>Recycler</span><wbr></wbr><span><span>View</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1201433889%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html#-1201433889%2FFunctions%2F-425731811"><span class="token function">onDetachedFromRecyclerView</span></a><span class="token punctuation">(</span><span><span class="token annotation">@</span><span data-unresolved-link="androidx.annotation/NonNull///PointingToDeclaration/"><span class="token annotation">NonNull</span></span> </span>p0<span class="token operator">: </span><span data-unresolved-link="androidx.recyclerview.widget/RecyclerView///PointingToDeclaration/">RecyclerView</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="114161985%2FFunctions%2F-425731811" anchor-label="onFailedToRecycleView" id="114161985%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#114161985%2FFunctions%2F-425731811"><span>on</span><wbr></wbr><span>Failed</span><wbr></wbr><span>To</span><wbr></wbr><span>Recycle</span><wbr></wbr><span><span>View</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="114161985%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html#114161985%2FFunctions%2F-425731811"><span class="token function">onFailedToRecycleView</span></a><span class="token punctuation">(</span><span><span class="token annotation">@</span><span data-unresolved-link="androidx.annotation/NonNull///PointingToDeclaration/"><span class="token annotation">NonNull</span></span> </span>p0<span class="token operator">: </span><a href="../-smart-view-holder/index.html">SmartViewHolder</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="kotlin/Boolean///PointingToDeclaration/">Boolean</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="275553051%2FFunctions%2F-425731811" anchor-label="onViewAttachedToWindow" id="275553051%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#275553051%2FFunctions%2F-425731811"><span>on</span><wbr></wbr><span>View</span><wbr></wbr><span>Attached</span><wbr></wbr><span>To</span><wbr></wbr><span><span>Window</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="275553051%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html#275553051%2FFunctions%2F-425731811"><span class="token function">onViewAttachedToWindow</span></a><span class="token punctuation">(</span><span><span class="token annotation">@</span><span data-unresolved-link="androidx.annotation/NonNull///PointingToDeclaration/"><span class="token annotation">NonNull</span></span> </span>p0<span class="token operator">: </span><a href="../-smart-view-holder/index.html">SmartViewHolder</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="1679485144%2FFunctions%2F-425731811" anchor-label="onViewDetachedFromWindow" id="1679485144%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#1679485144%2FFunctions%2F-425731811"><span>on</span><wbr></wbr><span>View</span><wbr></wbr><span>Detached</span><wbr></wbr><span>From</span><wbr></wbr><span><span>Window</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1679485144%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html#1679485144%2FFunctions%2F-425731811"><span class="token function">onViewDetachedFromWindow</span></a><span class="token punctuation">(</span><span><span class="token annotation">@</span><span data-unresolved-link="androidx.annotation/NonNull///PointingToDeclaration/"><span class="token annotation">NonNull</span></span> </span>p0<span class="token operator">: </span><a href="../-smart-view-holder/index.html">SmartViewHolder</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-2092326851%2FFunctions%2F-425731811" anchor-label="onViewRecycled" id="-2092326851%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#-2092326851%2FFunctions%2F-425731811"><span>on</span><wbr></wbr><span>View</span><wbr></wbr><span><span>Recycled</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2092326851%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html#-2092326851%2FFunctions%2F-425731811"><span class="token function">onViewRecycled</span></a><span class="token punctuation">(</span><span><span class="token annotation">@</span><span data-unresolved-link="androidx.annotation/NonNull///PointingToDeclaration/"><span class="token annotation">NonNull</span></span> </span>p0<span class="token operator">: </span><a href="../-smart-view-holder/index.html">SmartViewHolder</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-149943229%2FFunctions%2F-425731811" anchor-label="registerAdapterDataObserver" id="-149943229%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#-149943229%2FFunctions%2F-425731811"><span>register</span><wbr></wbr><span>Adapter</span><wbr></wbr><span>Data</span><wbr></wbr><span><span>Observer</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-149943229%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html#-149943229%2FFunctions%2F-425731811"><span class="token function">registerAdapterDataObserver</span></a><span class="token punctuation">(</span><span><span class="token annotation">@</span><span data-unresolved-link="androidx.annotation/NonNull///PointingToDeclaration/"><span class="token annotation">NonNull</span></span> </span>p0<span class="token operator">: </span><span data-unresolved-link="androidx.recyclerview.widget/RecyclerView.AdapterDataObserver///PointingToDeclaration/">RecyclerView.AdapterDataObserver</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-686920186%2FFunctions%2F-425731811" anchor-label="remove" id="-686920186%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="remove.html"><span><span>remove</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-686920186%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="remove.html"><span class="token function">remove</span></a><span class="token punctuation">(</span>item<span class="token operator">: </span><a href="index.html">T</a><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="kotlin/Boolean///PointingToDeclaration/">Boolean</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">删除<a href="list.html">list</a>中的<a href="remove.html">item</a>.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1717526255%2FFunctions%2F-425731811" anchor-label="removeAll" id="-1717526255%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="remove-all.html"><span>remove</span><wbr></wbr><span><span>All</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1717526255%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="remove-all.html"><span class="token function">removeAll</span></a><span class="token punctuation">(</span>items<span class="token operator">: </span><span data-unresolved-link="kotlin.collections/List///PointingToDeclaration/">List</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">删除<a href="list.html">list</a>中<a href="remove-all.html">items</a>.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="2096496803%2FFunctions%2F-425731811" anchor-label="removeAt" id="2096496803%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="remove-at.html"><span>remove</span><wbr></wbr><span><span>At</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2096496803%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="remove-at.html"><span class="token function">removeAt</span></a><span class="token punctuation">(</span>index<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">如果存在，删除<a href="list.html">list</a>中<a href="remove-at.html">index</a>所在的item.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1152909581%2FFunctions%2F-425731811" anchor-label="removeDiff" id="-1152909581%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="remove-diff.html"><span>remove</span><wbr></wbr><span><span>Diff</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1152909581%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="remove-diff.html"><span class="token function">removeDiff</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">移除diff callback.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="1991189249%2FFunctions%2F-425731811" anchor-label="setHasStableIds" id="1991189249%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#1991189249%2FFunctions%2F-425731811"><span>set</span><wbr></wbr><span>Has</span><wbr></wbr><span>Stable</span><wbr></wbr><span><span>Ids</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1991189249%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html#1991189249%2FFunctions%2F-425731811"><span class="token function">setHasStableIds</span></a><span class="token punctuation">(</span>p0<span class="token operator">: </span><span data-unresolved-link="kotlin/Boolean///PointingToDeclaration/">Boolean</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1333456231%2FFunctions%2F-425731811" anchor-label="type" id="-1333456231%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="type.html"><span><span>type</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1333456231%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="type.html"><span class="token function">type</span></a><span class="token punctuation">(</span>predicate<span class="token operator">: </span><span class="token punctuation">(</span><span class="token keyword"></span><a href="index.html">T</a><span class="token punctuation">, </span><span class="token keyword"></span>position<span class="token operator">: </span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><span class="token keyword"></span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">SmartAdapter</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">设置 view type 获取方法.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="607934410%2FFunctions%2F-425731811" anchor-label="unregisterAdapterDataObserver" id="607934410%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#607934410%2FFunctions%2F-425731811"><span>unregister</span><wbr></wbr><span>Adapter</span><wbr></wbr><span>Data</span><wbr></wbr><span><span>Observer</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="607934410%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="index.html#607934410%2FFunctions%2F-425731811"><span class="token function">unregisterAdapterDataObserver</span></a><span class="token punctuation">(</span><span><span class="token annotation">@</span><span data-unresolved-link="androidx.annotation/NonNull///PointingToDeclaration/"><span class="token annotation">NonNull</span></span> </span>p0<span class="token operator">: </span><span data-unresolved-link="androidx.recyclerview.widget/RecyclerView.AdapterDataObserver///PointingToDeclaration/">RecyclerView.AdapterDataObserver</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="453785955%2FFunctions%2F-425731811" anchor-label="update" id="453785955%2FFunctions%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="update.html"><span><span>update</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="453785955%2FFunctions%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="update.html"><span class="token function">update</span></a><span class="token punctuation">(</span>newList<span class="token operator">: </span><span data-unresolved-link="kotlin.collections/List///PointingToDeclaration/">List</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="token punctuation">, </span>isAppend<span class="token operator">: </span><span data-unresolved-link="kotlin/Boolean///PointingToDeclaration/">Boolean</span><span class="token operator"> = </span><span class="token boolean">false</span><span class="token punctuation">, </span>isAppendToHead<span class="token operator">: </span><span data-unresolved-link="kotlin/Boolean///PointingToDeclaration/">Boolean</span><span class="token operator"> = </span><span class="token boolean">false</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph"><a href="update.html">isAppend</a>=false: 更新<a href="list.html">list</a>为<a href="update.html">newList</a>; <a href="update.html">isAppend</a>=true: <a href="update.html">isAppendToHead</a>=true:追加到<a href="list.html">list</a>开头;<a href="update.html">isAppendToHead</a>=false:追加到<a href="list.html">list</a>末尾.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="">Properties</h2>
+              <div class="table" data-togglable="Properties"><a data-name="-1220986698%2FProperties%2F-425731811" anchor-label="detectMovies" id="-1220986698%2FProperties%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="detect-movies.html">detectMovies</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1220986698%2FProperties%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><a data-name="-1220986698%2FProperties%2F-425731811" anchor-label="detectMovies" id="-1220986698%2FProperties%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">var </span><a href="detect-movies.html">detectMovies</a><span class="token operator">: </span><span data-unresolved-link="kotlin/Boolean///PointingToDeclaration/">Boolean</span><span class="token operator"> = </span><span class="token boolean">true</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1830383214%2FProperties%2F-425731811" anchor-label="diffCallback" id="-1830383214%2FProperties%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="diff-callback.html">diffCallback</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1830383214%2FProperties%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><a data-name="-1830383214%2FProperties%2F-425731811" anchor-label="diffCallback" id="-1830383214%2FProperties%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">var </span><a href="diff-callback.html">diffCallback</a><span class="token operator">: </span><span data-unresolved-link="androidx.recyclerview.widget/DiffUtil.Callback///PointingToDeclaration/">DiffUtil.Callback</span><span class="token operator">?</span><span class="token operator"> = </span>null<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="-1830383214%2FProperties%2F-425731811" anchor-label="diffCallback" id="-1830383214%2FProperties%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a><p class="paragraph">内部真实创建的Diff Callback.</p></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-413833419%2FProperties%2F-425731811" anchor-label="itemClickListener" id="-413833419%2FProperties%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="item-click-listener.html">itemClickListener</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-413833419%2FProperties%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><a data-name="-413833419%2FProperties%2F-425731811" anchor-label="itemClickListener" id="-413833419%2FProperties%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">var </span><a href="item-click-listener.html">itemClickListener</a><span class="token operator">: </span><span class="token punctuation">(</span><span class="token keyword"></span><a href="index.html">T</a><span class="token punctuation">, </span><span class="token keyword"></span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><span class="token keyword"></span><span data-unresolved-link="kotlin/Unit///PointingToDeclaration/">Unit</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="2029163217%2FProperties%2F-425731811" anchor-label="itemLongClickListener" id="2029163217%2FProperties%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="item-long-click-listener.html">itemLongClickListener</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2029163217%2FProperties%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><a data-name="2029163217%2FProperties%2F-425731811" anchor-label="itemLongClickListener" id="2029163217%2FProperties%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">var </span><a href="item-long-click-listener.html">itemLongClickListener</a><span class="token operator">: </span><span class="token punctuation">(</span><span class="token keyword"></span><a href="index.html">T</a><span class="token punctuation">, </span><span class="token keyword"></span><span data-unresolved-link="kotlin/Int///PointingToDeclaration/">Int</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><span class="token keyword"></span><span data-unresolved-link="kotlin/Unit///PointingToDeclaration/">Unit</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-522744354%2FProperties%2F-425731811" anchor-label="list" id="-522744354%2FProperties%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":smart-adapter-androidx:dokkaHtml/release" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="list.html">list</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-522744354%2FProperties%2F-425731811"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":smart-adapter-androidx:dokkaHtml/release"><a data-name="-522744354%2FProperties%2F-425731811" anchor-label="list" id="-522744354%2FProperties%2F-425731811" data-filterable-set=":smart-adapter-androidx:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="list.html">list</a><span class="token operator">: </span><span data-unresolved-link="kotlin.collections/MutableList///PointingToDeclaration/">MutableList</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">T</a><span class="token operator">&gt;</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer"><span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2021 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span></div>
+      </div>
+    </div>
+  </body>
+</html>
+

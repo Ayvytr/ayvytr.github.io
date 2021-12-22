@@ -1,0 +1,1 @@
+sourceset_dependencies='{":smart-adapter-androidx:dokkaHtml/androidTestRelease":[],":smart-adapter-androidx:dokkaHtml/debug":[],":smart-adapter-androidx:dokkaHtml/main":[],":smart-adapter-androidx:dokkaHtml/release":[]}'
