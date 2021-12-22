@@ -1,0 +1,66 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:com.ayvytr.okhttploginterceptor.printer////PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor.printer/index.html
+$dokka.location:com.ayvytr.okhttploginterceptor.printer/DefaultLogPrinter///PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor.printer/-default-log-printer/index.html
+$dokka.location:com.ayvytr.okhttploginterceptor.printer/DefaultLogPrinter/DefaultLogPrinter/#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor.printer/-default-log-printer/-default-log-printer.html
+$dokka.location:com.ayvytr.okhttploginterceptor.printer/DefaultLogPrinter/print/#com.ayvytr.okhttploginterceptor.Priority#kotlin.String#kotlin.String/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor.printer/-default-log-printer/print.html
+$dokka.location:com.ayvytr.okhttploginterceptor.printer/IPrinter///PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor.printer/-i-printer/index.html
+$dokka.location:com.ayvytr.okhttploginterceptor.printer/IPrinter/print/#com.ayvytr.okhttploginterceptor.Priority#kotlin.String#kotlin.String/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor.printer/-i-printer/print.html
+$dokka.location:com.ayvytr.okhttploginterceptor////PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/index.html
+$dokka.location:com.ayvytr.okhttploginterceptor//bodyString/okhttp3.RequestBody#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/body-string.html
+$dokka.location:com.ayvytr.okhttploginterceptor//bodyString/okhttp3.ResponseBody#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/body-string.html
+$dokka.location:com.ayvytr.okhttploginterceptor//formatAsPossible/kotlin.String#kotlin.Boolean#okhttp3.MediaType?#kotlin.Int/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/format-as-possible.html
+$dokka.location:com.ayvytr.okhttploginterceptor//formatAsPossible/okhttp3.RequestBody#kotlin.Boolean#kotlin.Int/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/format-as-possible.html
+$dokka.location:com.ayvytr.okhttploginterceptor//formatAsPossible/okhttp3.ResponseBody#kotlin.Boolean#kotlin.Int/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/format-as-possible.html
+$dokka.location:com.ayvytr.okhttploginterceptor//isFile/okhttp3.MediaType#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/is-file.html
+$dokka.location:com.ayvytr.okhttploginterceptor//isForm/okhttp3.MediaType#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/is-form.html
+$dokka.location:com.ayvytr.okhttploginterceptor//isGuessJson/kotlin.String#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/is-guess-json.html
+$dokka.location:com.ayvytr.okhttploginterceptor//isHtml/okhttp3.MediaType#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/is-html.html
+$dokka.location:com.ayvytr.okhttploginterceptor//isJson/okhttp3.MediaType#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/is-json.html
+$dokka.location:com.ayvytr.okhttploginterceptor//isMedia/okhttp3.MediaType#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/is-media.html
+$dokka.location:com.ayvytr.okhttploginterceptor//isParsable/okhttp3.MediaType#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/is-parsable.html
+$dokka.location:com.ayvytr.okhttploginterceptor//isPlain/okhttp3.MediaType#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/is-plain.html
+$dokka.location:com.ayvytr.okhttploginterceptor//isText/okhttp3.MediaType#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/is-text.html
+$dokka.location:com.ayvytr.okhttploginterceptor//isUnreadable/okhttp3.MediaType#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/is-unreadable.html
+$dokka.location:com.ayvytr.okhttploginterceptor//isXml/okhttp3.MediaType#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/is-xml.html
+$dokka.location:com.ayvytr.okhttploginterceptor//isZip/okhttp3.MediaType#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/is-zip.html
+$dokka.location:com.ayvytr.okhttploginterceptor//jsonFormat/kotlin.String#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/json-format.html
+$dokka.location:com.ayvytr.okhttploginterceptor//xmlFormat/kotlin.String#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/xml-format.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor.Companion///PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/-companion/index.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor.Companion/BODY_OMITTED/#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/-companion/-b-o-d-y_-o-m-i-t-t-e-d.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor.Companion/CLINE/#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/-companion/-c-l-i-n-e.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor.Companion/DEFAULT_IGNORE_LENGTH/#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/-companion/-d-e-f-a-u-l-t_-i-g-n-o-r-e_-l-e-n-g-t-h.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor.Companion/DEFAULT_TAG/#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/-companion/-d-e-f-a-u-l-t_-t-a-g.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor.Companion/FOOTER/#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/-companion/-f-o-o-t-e-r.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor.Companion/L/#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/-companion/-l.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor.Companion/LB/#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/-companion/-l-b.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor.Companion/LT/#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/-companion/-l-t.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor.Companion/MAX_LINE_LENGTH/#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/-companion/-m-a-x_-l-i-n-e_-l-e-n-g-t-h.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor.Companion/REQUEST/#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/-companion/-r-e-q-u-e-s-t.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor.Companion/RESPONSE/#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/-companion/-r-e-s-p-o-n-s-e.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor.Companion/gson/#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/-companion/gson.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor///PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/index.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor/LoggingInterceptor/#kotlin.Boolean#kotlin.Boolean#kotlin.String#com.ayvytr.okhttploginterceptor.Priority#kotlin.Boolean#kotlin.Int#com.ayvytr.okhttploginterceptor.printer.IPrinter?/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/-logging-interceptor.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor/ignoreBodyIfMoreThan/#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/ignore-body-if-more-than.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor/ignoreLongBody/#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/ignore-long-body.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor/intercept/#okhttp3.Interceptor.Chain/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/intercept.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor/isShowAll/#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/is-show-all.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor/maxLineLength/#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/max-line-length.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor/printer/#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/printer.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor/priority/#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/priority.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor/requestTag/#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/request-tag.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor/responseTag/#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/response-tag.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor/showLog/#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/show-log.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor/tag/#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/tag.html
+$dokka.location:com.ayvytr.okhttploginterceptor/LoggingInterceptor/visualFormat/#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-logging-interceptor/visual-format.html
+$dokka.location:com.ayvytr.okhttploginterceptor/Priority.A///PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-priority/-a/index.html
+$dokka.location:com.ayvytr.okhttploginterceptor/Priority.D///PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-priority/-d/index.html
+$dokka.location:com.ayvytr.okhttploginterceptor/Priority.E///PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-priority/-e/index.html
+$dokka.location:com.ayvytr.okhttploginterceptor/Priority.I///PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-priority/-i/index.html
+$dokka.location:com.ayvytr.okhttploginterceptor/Priority.V///PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-priority/-v/index.html
+$dokka.location:com.ayvytr.okhttploginterceptor/Priority.W///PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-priority/-w/index.html
+$dokka.location:com.ayvytr.okhttploginterceptor/Priority///PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-priority/index.html
+$dokka.location:com.ayvytr.okhttploginterceptor/Priority/toInt/#/PointingToDeclaration/okhttploginterceptor/com.ayvytr.okhttploginterceptor/-priority/to-int.html
+com.ayvytr.okhttploginterceptor
+com.ayvytr.okhttploginterceptor.printer
+

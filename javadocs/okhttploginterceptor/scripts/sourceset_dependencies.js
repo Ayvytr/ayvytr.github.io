@@ -1,0 +1,1 @@
+sourceset_dependencies='{":okhttploginterceptor:dokkaHtml/androidTestRelease":[],":okhttploginterceptor:dokkaHtml/debug":[],":okhttploginterceptor:dokkaHtml/main":[],":okhttploginterceptor:dokkaHtml/release":[]}'
