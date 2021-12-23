@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"com.ayvytr.logger","l":"AndroidLogAdapter"},{"p":"com.ayvytr.logger","l":"IPrinter"},{"p":"com.ayvytr.logger","l":"L"},{"p":"com.ayvytr.logger","l":"LogAdapter"},{"p":"com.ayvytr.logger","l":"Printer"},{"p":"com.ayvytr.logger","l":"Settings"}]
