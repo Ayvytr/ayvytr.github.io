@@ -160,6 +160,12 @@ $dokka.location:com.ayvytr.ktx.ui.edittext/BaseTextWatcher/beforeTextChanged/#ko
 $dokka.location:com.ayvytr.ktx.ui.edittext/BaseTextWatcher/onTextChanged/#kotlin.CharSequence#kotlin.Int#kotlin.Int#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.edittext/-base-text-watcher/on-text-changed.html
 $dokka.location:com.ayvytr.ktx.ui.edittext/ChineseFilter///PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.edittext/-chinese-filter/index.html
 $dokka.location:com.ayvytr.ktx.ui.edittext/ChineseFilter/ChineseFilter/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.edittext/-chinese-filter/-chinese-filter.html
+$dokka.location:com.ayvytr.ktx.ui.edittext/DecimalDigitsInputFilter.Companion///PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.edittext/-decimal-digits-input-filter/-companion/index.html
+$dokka.location:com.ayvytr.ktx.ui.edittext/DecimalDigitsInputFilter.Companion/DEFAULT_DECIMAL_DIGITS/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.edittext/-decimal-digits-input-filter/-companion/-d-e-f-a-u-l-t_-d-e-c-i-m-a-l_-d-i-g-i-t-s.html
+$dokka.location:com.ayvytr.ktx.ui.edittext/DecimalDigitsInputFilter///PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.edittext/-decimal-digits-input-filter/index.html
+$dokka.location:com.ayvytr.ktx.ui.edittext/DecimalDigitsInputFilter/DecimalDigitsInputFilter/#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.edittext/-decimal-digits-input-filter/-decimal-digits-input-filter.html
+$dokka.location:com.ayvytr.ktx.ui.edittext/DecimalDigitsInputFilter/filter/#kotlin.CharSequence#kotlin.Int#kotlin.Int#android.text.Spanned#kotlin.Int#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.edittext/-decimal-digits-input-filter/filter.html
+$dokka.location:com.ayvytr.ktx.ui.edittext/DecimalDigitsInputFilter/setDecimalDigits/#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.edittext/-decimal-digits-input-filter/set-decimal-digits.html
 $dokka.location:com.ayvytr.ktx.ui.edittext/EmailFilter///PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.edittext/-email-filter/index.html
 $dokka.location:com.ayvytr.ktx.ui.edittext/EmailFilter/EmailFilter/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.edittext/-email-filter/-email-filter.html
 $dokka.location:com.ayvytr.ktx.ui.edittext/EmojiFilter///PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.edittext/-emoji-filter/index.html
