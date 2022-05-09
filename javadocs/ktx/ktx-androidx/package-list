@@ -4,7 +4,12 @@ $dokka.location:com.ayvytr.ktx.app////PointingToDeclaration/ktx-androidx/com.ay
 $dokka.location:com.ayvytr.ktx.app/ActivityStack///PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/index.html
 $dokka.location:com.ayvytr.ktx.app/ActivityStack/finish/#java.lang.Class[android.app.Activity]/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/finish.html
 $dokka.location:com.ayvytr.ktx.app/ActivityStack/finishAll/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/finish-all.html
+$dokka.location:com.ayvytr.ktx.app/ActivityStack/finishAllAndKillApp/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/finish-all-and-kill-app.html
 $dokka.location:com.ayvytr.ktx.app/ActivityStack/finishAllExcept/#java.lang.Class[android.app.Activity]/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/finish-all-except.html
+$dokka.location:com.ayvytr.ktx.app/ActivityStack/finishAllExceptName/#kotlin.String/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/finish-all-except-name.html
+$dokka.location:com.ayvytr.ktx.app/ActivityStack/finishAllExceptSimpleName/#kotlin.String/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/finish-all-except-simple-name.html
+$dokka.location:com.ayvytr.ktx.app/ActivityStack/finishByName/#kotlin.String/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/finish-by-name.html
+$dokka.location:com.ayvytr.ktx.app/ActivityStack/finishBySimpleName/#kotlin.String/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/finish-by-simple-name.html
 $dokka.location:com.ayvytr.ktx.app/ActivityStack/finishCurrent/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/finish-current.html
 $dokka.location:com.ayvytr.ktx.app/ActivityStack/finishExceptTop/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/finish-except-top.html
 $dokka.location:com.ayvytr.ktx.app/ActivityStack/forceClose/#kotlin.Boolean/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/force-close.html
