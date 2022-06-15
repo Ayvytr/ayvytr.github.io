@@ -26,7 +26,7 @@
     catch(err) {
     }
 //-->
-var data = {"i0":9,"i1":9,"i2":9,"i3":9,"i4":9,"i5":9,"i6":9,"i7":9,"i8":9};
+var data = {"i0":9,"i1":9,"i2":9,"i3":9,"i4":9,"i5":9,"i6":9};
 var tabs = {65535:["t0","All Methods"],1:["t1","Static Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -137,7 +137,7 @@ extends java.lang.Object</pre>
  判断，传空导致空指针异常，有知道怎么解决的老铁请邮件我.</div>
 <dl>
 <dt><span class="simpleTagLabel">Since:</span></dt>
-<dd>1.0.0</dd>
+<dd>3.3.2 限制行默认长度为160；删除json和xml打印方法, 1.0.0</dd>
 <dt><span class="simpleTagLabel">Author:</span></dt>
 <dd>Ayvytr ['s GitHub](https://github.com/Ayvytr)</dd>
 </dl>
@@ -177,40 +177,24 @@ extends java.lang.Object</pre>
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr id="i3" class="rowColor">
-<td class="colFirst"><code>static void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#json(java.lang.String)">json</a></span>&#8203;(java.lang.String&nbsp;json)</code></th>
-<td class="colLast">
-<div class="block">Formats the json content and print it</div>
-</td>
-</tr>
-<tr id="i4" class="altColor">
 <td class="colFirst"><code>static <a href="Settings.html" title="class in com.ayvytr.logger">Settings</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#settings()">settings</a></span>()</code></th>
-<td class="colLast">
-<div class="block">It is used to get the settings object in order to change settings</div>
-</td>
+<td class="colLast">&nbsp;</td>
 </tr>
-<tr id="i5" class="rowColor">
+<tr id="i4" class="altColor">
 <td class="colFirst"><code>static void</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#v(java.lang.Object...)">v</a></span>&#8203;(java.lang.Object...&nbsp;objects)</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
-<tr id="i6" class="altColor">
+<tr id="i5" class="rowColor">
 <td class="colFirst"><code>static void</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#w(java.lang.Object...)">w</a></span>&#8203;(java.lang.Object...&nbsp;objects)</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
-<tr id="i7" class="rowColor">
+<tr id="i6" class="altColor">
 <td class="colFirst"><code>static void</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#wtf(java.lang.Object...)">wtf</a></span>&#8203;(java.lang.Object...&nbsp;objects)</code></th>
 <td class="colLast">&nbsp;</td>
-</tr>
-<tr id="i8" class="altColor">
-<td class="colFirst"><code>static void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#xml(java.lang.String)">xml</a></span>&#8203;(java.lang.String&nbsp;xml)</code></th>
-<td class="colLast">
-<div class="block">Formats the json content and print it</div>
-</td>
 </tr>
 </table>
 <ul class="blockList">
@@ -293,43 +277,10 @@ extends java.lang.Object</pre>
 <a id="settings()">
 <!--   -->
 </a>
-<ul class="blockList">
+<ul class="blockListLast">
 <li class="blockList">
 <h4>settings</h4>
 <pre class="methodSignature">public static&nbsp;<a href="Settings.html" title="class in com.ayvytr.logger">Settings</a>&nbsp;settings()</pre>
-<div class="block">It is used to get the settings object in order to change settings</div>
-<dl>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>the settings object</dd>
-</dl>
-</li>
-</ul>
-<a id="json(java.lang.String)">
-<!--   -->
-</a>
-<ul class="blockList">
-<li class="blockList">
-<h4>json</h4>
-<pre class="methodSignature">public static&nbsp;void&nbsp;json&#8203;(java.lang.String&nbsp;json)</pre>
-<div class="block">Formats the json content and print it</div>
-<dl>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>json</code> - the json content</dd>
-</dl>
-</li>
-</ul>
-<a id="xml(java.lang.String)">
-<!--   -->
-</a>
-<ul class="blockListLast">
-<li class="blockList">
-<h4>xml</h4>
-<pre class="methodSignature">public static&nbsp;void&nbsp;xml&#8203;(java.lang.String&nbsp;xml)</pre>
-<div class="block">Formats the json content and print it</div>
-<dl>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>xml</code> - the xml content</dd>
-</dl>
 </li>
 </ul>
 </li>
