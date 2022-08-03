@@ -158,6 +158,12 @@ $dokka.location:com.ayvytr.ktx.provider/ContextProvider/insert/#android.net.Uri#
 $dokka.location:com.ayvytr.ktx.provider/ContextProvider/onCreate/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.provider/-context-provider/on-create.html
 $dokka.location:com.ayvytr.ktx.provider/ContextProvider/query/#android.net.Uri#kotlin.Array[kotlin.String]?#kotlin.String?#kotlin.Array[kotlin.String]?#kotlin.String?/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.provider/-context-provider/query.html
 $dokka.location:com.ayvytr.ktx.provider/ContextProvider/update/#android.net.Uri#android.content.ContentValues?#kotlin.String?#kotlin.Array[kotlin.String]?/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.provider/-context-provider/update.html
+$dokka.location:com.ayvytr.ktx.ui.dialog////PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.dialog/index.html
+$dokka.location:com.ayvytr.ktx.ui.dialog/BaseDialog///PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.dialog/-base-dialog/index.html
+$dokka.location:com.ayvytr.ktx.ui.dialog/BaseDialog/BaseDialog/#android.content.Context#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.dialog/-base-dialog/-base-dialog.html
+$dokka.location:com.ayvytr.ktx.ui.dialog/BaseDialog/setFullWidth/#kotlin.Boolean/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.dialog/-base-dialog/set-full-width.html
+$dokka.location:com.ayvytr.ktx.ui.dialog/BaseDialog/setGravity/#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.dialog/-base-dialog/set-gravity.html
+$dokka.location:com.ayvytr.ktx.ui.dialog/BaseDialog/show/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.dialog/-base-dialog/show.html
 $dokka.location:com.ayvytr.ktx.ui.edittext////PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.edittext/index.html
 $dokka.location:com.ayvytr.ktx.ui.edittext/BaseTextWatcher///PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.edittext/-base-text-watcher/index.html
 $dokka.location:com.ayvytr.ktx.ui.edittext/BaseTextWatcher/BaseTextWatcher/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.edittext/-base-text-watcher/-base-text-watcher.html
@@ -265,6 +271,7 @@ com.ayvytr.ktx.bitmap
 com.ayvytr.ktx.context
 com.ayvytr.ktx.provider
 com.ayvytr.ktx.ui
+com.ayvytr.ktx.ui.dialog
 com.ayvytr.ktx.ui.edittext
 com.ayvytr.ktx.ui.spanner
 
