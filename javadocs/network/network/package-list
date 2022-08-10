@@ -1,101 +1,13 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
-$dokka.location:com.ayvytr.network.bean////PointingToDeclaration/network/com.ayvytr.network.bean/index.html
-$dokka.location:com.ayvytr.network.bean/ResponseWrapper///PointingToDeclaration/network/com.ayvytr.network.bean/-response-wrapper/index.html
-$dokka.location:com.ayvytr.network.bean/ResponseWrapper/ResponseWrapper/#TypeParam(bounds=[kotlin.Any?])?#kotlin.Int#kotlin.Boolean#kotlin.Boolean#kotlin.Boolean#com.ayvytr.network.exception.ResponseException?/PointingToDeclaration/network/com.ayvytr.network.bean/-response-wrapper/-response-wrapper.html
-$dokka.location:com.ayvytr.network.bean/ResponseWrapper/ResponseWrapper/#com.ayvytr.network.exception.ResponseException/PointingToDeclaration/network/com.ayvytr.network.bean/-response-wrapper/-response-wrapper.html
-$dokka.location:com.ayvytr.network.bean/ResponseWrapper/ResponseWrapper/#kotlin.String#kotlin.Int#kotlin.Throwable?#kotlin.Int/PointingToDeclaration/network/com.ayvytr.network.bean/-response-wrapper/-response-wrapper.html
-$dokka.location:com.ayvytr.network.bean/ResponseWrapper/cause/#/PointingToDeclaration/network/com.ayvytr.network.bean/-response-wrapper/cause.html
-$dokka.location:com.ayvytr.network.bean/ResponseWrapper/code/#/PointingToDeclaration/network/com.ayvytr.network.bean/-response-wrapper/code.html
-$dokka.location:com.ayvytr.network.bean/ResponseWrapper/data/#/PointingToDeclaration/network/com.ayvytr.network.bean/-response-wrapper/data.html
-$dokka.location:com.ayvytr.network.bean/ResponseWrapper/dataNonNull/#/PointingToDeclaration/network/com.ayvytr.network.bean/-response-wrapper/data-non-null.html
-$dokka.location:com.ayvytr.network.bean/ResponseWrapper/exception/#/PointingToDeclaration/network/com.ayvytr.network.bean/-response-wrapper/exception.html
-$dokka.location:com.ayvytr.network.bean/ResponseWrapper/hasMore/#/PointingToDeclaration/network/com.ayvytr.network.bean/-response-wrapper/has-more.html
-$dokka.location:com.ayvytr.network.bean/ResponseWrapper/isFailed/#/PointingToDeclaration/network/com.ayvytr.network.bean/-response-wrapper/is-failed.html
-$dokka.location:com.ayvytr.network.bean/ResponseWrapper/isLoadMore/#/PointingToDeclaration/network/com.ayvytr.network.bean/-response-wrapper/is-load-more.html
-$dokka.location:com.ayvytr.network.bean/ResponseWrapper/isSucceed/#/PointingToDeclaration/network/com.ayvytr.network.bean/-response-wrapper/is-succeed.html
-$dokka.location:com.ayvytr.network.bean/ResponseWrapper/message/#/PointingToDeclaration/network/com.ayvytr.network.bean/-response-wrapper/message.html
-$dokka.location:com.ayvytr.network.bean/ResponseWrapper/messageStringId/#/PointingToDeclaration/network/com.ayvytr.network.bean/-response-wrapper/message-string-id.html
-$dokka.location:com.ayvytr.network.bean/ResponseWrapper/page/#/PointingToDeclaration/network/com.ayvytr.network.bean/-response-wrapper/page.html
-$dokka.location:com.ayvytr.network.bean/ResponseWrapper/toString/#/PointingToDeclaration/network/com.ayvytr.network.bean/-response-wrapper/to-string.html
-$dokka.location:com.ayvytr.network.cookie.cache////PointingToDeclaration/network/com.ayvytr.network.cookie.cache/index.html
-$dokka.location:com.ayvytr.network.cookie.cache/CookieCache///PointingToDeclaration/network/com.ayvytr.network.cookie.cache/-cookie-cache/index.html
-$dokka.location:com.ayvytr.network.cookie.cache/CookieCache/addAll/#kotlin.collections.Collection[okhttp3.Cookie]/PointingToDeclaration/network/com.ayvytr.network.cookie.cache/-cookie-cache/add-all.html
-$dokka.location:com.ayvytr.network.cookie.cache/CookieCache/clear/#/PointingToDeclaration/network/com.ayvytr.network.cookie.cache/-cookie-cache/clear.html
-$dokka.location:com.ayvytr.network.cookie.cache/SetCookieCache.SetCookieCacheIterator///PointingToDeclaration/network/com.ayvytr.network.cookie.cache/-set-cookie-cache/-set-cookie-cache-iterator/index.html
-$dokka.location:com.ayvytr.network.cookie.cache/SetCookieCache.SetCookieCacheIterator/SetCookieCacheIterator/#/PointingToDeclaration/network/com.ayvytr.network.cookie.cache/-set-cookie-cache/-set-cookie-cache-iterator/-set-cookie-cache-iterator.html
-$dokka.location:com.ayvytr.network.cookie.cache/SetCookieCache.SetCookieCacheIterator/hasNext/#/PointingToDeclaration/network/com.ayvytr.network.cookie.cache/-set-cookie-cache/-set-cookie-cache-iterator/has-next.html
-$dokka.location:com.ayvytr.network.cookie.cache/SetCookieCache.SetCookieCacheIterator/next/#/PointingToDeclaration/network/com.ayvytr.network.cookie.cache/-set-cookie-cache/-set-cookie-cache-iterator/next.html
-$dokka.location:com.ayvytr.network.cookie.cache/SetCookieCache.SetCookieCacheIterator/remove/#/PointingToDeclaration/network/com.ayvytr.network.cookie.cache/-set-cookie-cache/-set-cookie-cache-iterator/remove.html
-$dokka.location:com.ayvytr.network.cookie.cache/SetCookieCache///PointingToDeclaration/network/com.ayvytr.network.cookie.cache/-set-cookie-cache/index.html
-$dokka.location:com.ayvytr.network.cookie.cache/SetCookieCache/SetCookieCache/#/PointingToDeclaration/network/com.ayvytr.network.cookie.cache/-set-cookie-cache/-set-cookie-cache.html
-$dokka.location:com.ayvytr.network.cookie.cache/SetCookieCache/addAll/#kotlin.collections.Collection[okhttp3.Cookie]/PointingToDeclaration/network/com.ayvytr.network.cookie.cache/-set-cookie-cache/add-all.html
-$dokka.location:com.ayvytr.network.cookie.cache/SetCookieCache/clear/#/PointingToDeclaration/network/com.ayvytr.network.cookie.cache/-set-cookie-cache/clear.html
-$dokka.location:com.ayvytr.network.cookie.cache/SetCookieCache/iterator/#/PointingToDeclaration/network/com.ayvytr.network.cookie.cache/-set-cookie-cache/iterator.html
-$dokka.location:com.ayvytr.network.cookie.saver////PointingToDeclaration/network/com.ayvytr.network.cookie.saver/index.html
-$dokka.location:com.ayvytr.network.cookie.saver/CookieSaver///PointingToDeclaration/network/com.ayvytr.network.cookie.saver/-cookie-saver/index.html
-$dokka.location:com.ayvytr.network.cookie.saver/CookieSaver/clear/#/PointingToDeclaration/network/com.ayvytr.network.cookie.saver/-cookie-saver/clear.html
-$dokka.location:com.ayvytr.network.cookie.saver/CookieSaver/loadAll/#/PointingToDeclaration/network/com.ayvytr.network.cookie.saver/-cookie-saver/load-all.html
-$dokka.location:com.ayvytr.network.cookie.saver/CookieSaver/removeAll/#kotlin.collections.Collection[okhttp3.Cookie]/PointingToDeclaration/network/com.ayvytr.network.cookie.saver/-cookie-saver/remove-all.html
-$dokka.location:com.ayvytr.network.cookie.saver/CookieSaver/saveAll/#kotlin.collections.Collection[okhttp3.Cookie]/PointingToDeclaration/network/com.ayvytr.network.cookie.saver/-cookie-saver/save-all.html
-$dokka.location:com.ayvytr.network.cookie.saver/MmkvCookieSaver.Companion///PointingToDeclaration/network/com.ayvytr.network.cookie.saver/-mmkv-cookie-saver/-companion/index.html
-$dokka.location:com.ayvytr.network.cookie.saver/MmkvCookieSaver///PointingToDeclaration/network/com.ayvytr.network.cookie.saver/-mmkv-cookie-saver/index.html
-$dokka.location:com.ayvytr.network.cookie.saver/MmkvCookieSaver/MmkvCookieSaver/#/PointingToDeclaration/network/com.ayvytr.network.cookie.saver/-mmkv-cookie-saver/-mmkv-cookie-saver.html
-$dokka.location:com.ayvytr.network.cookie.saver/MmkvCookieSaver/clear/#/PointingToDeclaration/network/com.ayvytr.network.cookie.saver/-mmkv-cookie-saver/clear.html
-$dokka.location:com.ayvytr.network.cookie.saver/MmkvCookieSaver/loadAll/#/PointingToDeclaration/network/com.ayvytr.network.cookie.saver/-mmkv-cookie-saver/load-all.html
-$dokka.location:com.ayvytr.network.cookie.saver/MmkvCookieSaver/removeAll/#kotlin.collections.Collection[okhttp3.Cookie]/PointingToDeclaration/network/com.ayvytr.network.cookie.saver/-mmkv-cookie-saver/remove-all.html
-$dokka.location:com.ayvytr.network.cookie.saver/MmkvCookieSaver/saveAll/#kotlin.collections.Collection[okhttp3.Cookie]/PointingToDeclaration/network/com.ayvytr.network.cookie.saver/-mmkv-cookie-saver/save-all.html
-$dokka.location:com.ayvytr.network.cookie////PointingToDeclaration/network/com.ayvytr.network.cookie/index.html
-$dokka.location:com.ayvytr.network.cookie/ClearableCookieJar///PointingToDeclaration/network/com.ayvytr.network.cookie/-clearable-cookie-jar/index.html
-$dokka.location:com.ayvytr.network.cookie/ClearableCookieJar/clear/#/PointingToDeclaration/network/com.ayvytr.network.cookie/-clearable-cookie-jar/clear.html
-$dokka.location:com.ayvytr.network.cookie/ClearableCookieJar/clearSession/#/PointingToDeclaration/network/com.ayvytr.network.cookie/-clearable-cookie-jar/clear-session.html
-$dokka.location:com.ayvytr.network.cookie/MmkvCookieJar.Companion///PointingToDeclaration/network/com.ayvytr.network.cookie/-mmkv-cookie-jar/-companion/index.html
-$dokka.location:com.ayvytr.network.cookie/MmkvCookieJar///PointingToDeclaration/network/com.ayvytr.network.cookie/-mmkv-cookie-jar/index.html
-$dokka.location:com.ayvytr.network.cookie/MmkvCookieJar/MmkvCookieJar/#/PointingToDeclaration/network/com.ayvytr.network.cookie/-mmkv-cookie-jar/-mmkv-cookie-jar.html
-$dokka.location:com.ayvytr.network.cookie/MmkvCookieJar/clear/#/PointingToDeclaration/network/com.ayvytr.network.cookie/-mmkv-cookie-jar/clear.html
-$dokka.location:com.ayvytr.network.cookie/MmkvCookieJar/clearSession/#/PointingToDeclaration/network/com.ayvytr.network.cookie/-mmkv-cookie-jar/clear-session.html
-$dokka.location:com.ayvytr.network.cookie/MmkvCookieJar/loadForRequest/#okhttp3.HttpUrl/PointingToDeclaration/network/com.ayvytr.network.cookie/-mmkv-cookie-jar/load-for-request.html
-$dokka.location:com.ayvytr.network.cookie/MmkvCookieJar/saveFromResponse/#okhttp3.HttpUrl#kotlin.collections.List[okhttp3.Cookie]/PointingToDeclaration/network/com.ayvytr.network.cookie/-mmkv-cookie-jar/save-from-response.html
-$dokka.location:com.ayvytr.network.cookie/SerializableCookie.Companion///PointingToDeclaration/network/com.ayvytr.network.cookie/-serializable-cookie/-companion/index.html
-$dokka.location:com.ayvytr.network.cookie/SerializableCookie.Companion/decode/#kotlin.ByteArray/PointingToDeclaration/network/com.ayvytr.network.cookie/-serializable-cookie/-companion/decode.html
-$dokka.location:com.ayvytr.network.cookie/SerializableCookie.Companion/decorateAll/#kotlin.collections.Collection[okhttp3.Cookie]/PointingToDeclaration/network/com.ayvytr.network.cookie/-serializable-cookie/-companion/decorate-all.html
-$dokka.location:com.ayvytr.network.cookie/SerializableCookie///PointingToDeclaration/network/com.ayvytr.network.cookie/-serializable-cookie/index.html
-$dokka.location:com.ayvytr.network.cookie/SerializableCookie/SerializableCookie/#okhttp3.Cookie/PointingToDeclaration/network/com.ayvytr.network.cookie/-serializable-cookie/-serializable-cookie.html
-$dokka.location:com.ayvytr.network.cookie/SerializableCookie/cookie/#/PointingToDeclaration/network/com.ayvytr.network.cookie/-serializable-cookie/cookie.html
-$dokka.location:com.ayvytr.network.cookie/SerializableCookie/encode/#/PointingToDeclaration/network/com.ayvytr.network.cookie/-serializable-cookie/encode.html
-$dokka.location:com.ayvytr.network.cookie/SerializableCookie/equals/#kotlin.Any?/PointingToDeclaration/network/com.ayvytr.network.cookie/-serializable-cookie/equals.html
-$dokka.location:com.ayvytr.network.cookie/SerializableCookie/hashCode/#/PointingToDeclaration/network/com.ayvytr.network.cookie/-serializable-cookie/hash-code.html
-$dokka.location:com.ayvytr.network.exception////PointingToDeclaration/network/com.ayvytr.network.exception/index.html
-$dokka.location:com.ayvytr.network.exception/ResponseException///PointingToDeclaration/network/com.ayvytr.network.exception/-response-exception/index.html
-$dokka.location:com.ayvytr.network.exception/ResponseException/ResponseException/#kotlin.String#kotlin.Int#kotlin.Int#kotlin.Throwable?/PointingToDeclaration/network/com.ayvytr.network.exception/-response-exception/-response-exception.html
-$dokka.location:com.ayvytr.network.exception/ResponseException/code/#/PointingToDeclaration/network/com.ayvytr.network.exception/-response-exception/code.html
-$dokka.location:com.ayvytr.network.exception/ResponseException/messageStringId/#/PointingToDeclaration/network/com.ayvytr.network.exception/-response-exception/message-string-id.html
 $dokka.location:com.ayvytr.network////PointingToDeclaration/network/com.ayvytr.network/index.html
-$dokka.location:com.ayvytr.network//getConnectivityManager/#/PointingToDeclaration/network/com.ayvytr.network/get-connectivity-manager.html
-$dokka.location:com.ayvytr.network//isExpired/okhttp3.Cookie#/PointingToDeclaration/network/com.ayvytr.network/is-expired.html
-$dokka.location:com.ayvytr.network//isMobileDataConnected/#/PointingToDeclaration/network/com.ayvytr.network/is-mobile-data-connected.html
-$dokka.location:com.ayvytr.network//isNetworkAvailable/#/PointingToDeclaration/network/com.ayvytr.network/is-network-available.html
-$dokka.location:com.ayvytr.network//isNetworkConnected/#/PointingToDeclaration/network/com.ayvytr.network/is-network-connected.html
-$dokka.location:com.ayvytr.network//isWifiConnected/#/PointingToDeclaration/network/com.ayvytr.network/is-wifi-connected.html
-$dokka.location:com.ayvytr.network//toResponseException/kotlin.Throwable#/PointingToDeclaration/network/com.ayvytr.network/to-response-exception.html
-$dokka.location:com.ayvytr.network//wrap/TypeParam(bounds=[kotlin.Any?])#kotlin.Boolean#kotlin.Int#kotlin.Boolean#kotlin.Boolean#kotlin.Throwable?/PointingToDeclaration/network/com.ayvytr.network/wrap.html
-$dokka.location:com.ayvytr.network//wrap/kotlin.Throwable#/PointingToDeclaration/network/com.ayvytr.network/wrap.html
 $dokka.location:com.ayvytr.network/ApiClient///PointingToDeclaration/network/com.ayvytr.network/-api-client/index.html
-$dokka.location:com.ayvytr.network/ApiClient/DEFAULT_CACHE/#/PointingToDeclaration/network/com.ayvytr.network/-api-client/-d-e-f-a-u-l-t_-c-a-c-h-e.html
-$dokka.location:com.ayvytr.network/ApiClient/DEFAULT_CACHE_DIR/#/PointingToDeclaration/network/com.ayvytr.network/-api-client/-d-e-f-a-u-l-t_-c-a-c-h-e_-d-i-r.html
 $dokka.location:com.ayvytr.network/ApiClient/baseUrl/#/PointingToDeclaration/network/com.ayvytr.network/-api-client/base-url.html
-$dokka.location:com.ayvytr.network/ApiClient/cookieJar/#/PointingToDeclaration/network/com.ayvytr.network/-api-client/cookie-jar.html
-$dokka.location:com.ayvytr.network/ApiClient/create/#java.lang.Class[TypeParam(bounds=[kotlin.Any?])]#kotlin.String/PointingToDeclaration/network/com.ayvytr.network/-api-client/create.html
-$dokka.location:com.ayvytr.network/ApiClient/getRetrofit/#kotlin.String/PointingToDeclaration/network/com.ayvytr.network/-api-client/get-retrofit.html
-$dokka.location:com.ayvytr.network/ApiClient/init/#kotlin.String#kotlin.Int#kotlin.collections.List[okhttp3.Interceptor]#okhttp3.Cache?#kotlin.Boolean#kotlin.Int/PointingToDeclaration/network/com.ayvytr.network/-api-client/init.html
-$dokka.location:com.ayvytr.network/ApiClient/initCustom/#kotlin.String#kotlin.Function0[okhttp3.OkHttpClient]#kotlin.Function0[retrofit2.Retrofit]/PointingToDeclaration/network/com.ayvytr.network/-api-client/init-custom.html
+$dokka.location:com.ayvytr.network/ApiClient/get/#java.lang.Class[TypeParam(bounds=[kotlin.Any?])]#kotlin.String/PointingToDeclaration/network/com.ayvytr.network/-api-client/get.html
+$dokka.location:com.ayvytr.network/ApiClient/init/#kotlin.String#kotlin.Int#kotlin.collections.List[okhttp3.Interceptor]#kotlin.collections.List[okhttp3.Interceptor]#kotlin.collections.List[retrofit2.Converter.Factory]#kotlin.collections.List[retrofit2.CallAdapter.Factory]/PointingToDeclaration/network/com.ayvytr.network/-api-client/init.html
+$dokka.location:com.ayvytr.network/ApiClient/init/#kotlin.String#okhttp3.OkHttpClient#retrofit2.Retrofit/PointingToDeclaration/network/com.ayvytr.network/-api-client/init.html
 $dokka.location:com.ayvytr.network/ApiClient/logInterceptor/#/PointingToDeclaration/network/com.ayvytr.network/-api-client/log-interceptor.html
+$dokka.location:com.ayvytr.network/ApiClient/of/#kotlin.String/PointingToDeclaration/network/com.ayvytr.network/-api-client/of.html
 $dokka.location:com.ayvytr.network/ApiClient/okHttpClient/#/PointingToDeclaration/network/com.ayvytr.network/-api-client/ok-http-client.html
-$dokka.location:com.ayvytr.network/ApiClient/parseException/#/PointingToDeclaration/network/com.ayvytr.network/-api-client/parse-exception.html
 com.ayvytr.network
-com.ayvytr.network.bean
-com.ayvytr.network.cookie
-com.ayvytr.network.cookie.cache
-com.ayvytr.network.cookie.saver
-com.ayvytr.network.exception
 
