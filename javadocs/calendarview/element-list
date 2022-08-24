@@ -1,0 +1,17 @@
+$dokka.format:javadoc-v1
+$dokka.linkExtension:html
+$dokka.location:com.haibin.calendarview/Calendar.Scheme///PointingToDeclaration/com/haibin/calendarview/Calendar.Scheme.html
+$dokka.location:com.haibin.calendarview/CalendarLayout.CalendarScrollView///PointingToDeclaration/com/haibin/calendarview/CalendarLayout.CalendarScrollView.html
+$dokka.location:com.haibin.calendarview/CalendarView.OnCalendarInterceptListener///PointingToDeclaration/com/haibin/calendarview/CalendarView.OnCalendarInterceptListener.html
+$dokka.location:com.haibin.calendarview/CalendarView.OnCalendarLongClickListener///PointingToDeclaration/com/haibin/calendarview/CalendarView.OnCalendarLongClickListener.html
+$dokka.location:com.haibin.calendarview/CalendarView.OnCalendarMultiSelectListener///PointingToDeclaration/com/haibin/calendarview/CalendarView.OnCalendarMultiSelectListener.html
+$dokka.location:com.haibin.calendarview/CalendarView.OnCalendarRangeSelectListener///PointingToDeclaration/com/haibin/calendarview/CalendarView.OnCalendarRangeSelectListener.html
+$dokka.location:com.haibin.calendarview/CalendarView.OnCalendarSelectListener///PointingToDeclaration/com/haibin/calendarview/CalendarView.OnCalendarSelectListener.html
+$dokka.location:com.haibin.calendarview/CalendarView.OnClickCalendarPaddingListener///PointingToDeclaration/com/haibin/calendarview/CalendarView.OnClickCalendarPaddingListener.html
+$dokka.location:com.haibin.calendarview/CalendarView.OnMonthChangeListener///PointingToDeclaration/com/haibin/calendarview/CalendarView.OnMonthChangeListener.html
+$dokka.location:com.haibin.calendarview/CalendarView.OnViewChangeListener///PointingToDeclaration/com/haibin/calendarview/CalendarView.OnViewChangeListener.html
+$dokka.location:com.haibin.calendarview/CalendarView.OnWeekChangeListener///PointingToDeclaration/com/haibin/calendarview/CalendarView.OnWeekChangeListener.html
+$dokka.location:com.haibin.calendarview/CalendarView.OnYearChangeListener///PointingToDeclaration/com/haibin/calendarview/CalendarView.OnYearChangeListener.html
+$dokka.location:com.haibin.calendarview/CalendarView.OnYearViewChangeListener///PointingToDeclaration/com/haibin/calendarview/CalendarView.OnYearViewChangeListener.html
+com.haibin.calendarview
+
