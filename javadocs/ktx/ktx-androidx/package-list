@@ -18,7 +18,7 @@ $dokka.location:com.ayvytr.ktx.app/ActivityStack/getRunningActivityCount/#/Point
 $dokka.location:com.ayvytr.ktx.app/ActivityStack/isForeground/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/is-foreground.html
 $dokka.location:com.ayvytr.ktx.app/ActivityStack/killApp/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/kill-app.html
 $dokka.location:com.ayvytr.ktx.app/ActivityStack/killSelf/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/kill-self.html
-$dokka.location:com.ayvytr.ktx.app/ActivityStack/registerCallback/#android.app.Application/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/register-callback.html
+$dokka.location:com.ayvytr.ktx.app/ActivityStack/registerCallback/#android.app.Application#kotlin.Function1[kotlin.Boolean,kotlin.Unit]/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/register-callback.html
 $dokka.location:com.ayvytr.ktx.app/ActivityStack/start/#android.content.Intent/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/start.html
 $dokka.location:com.ayvytr.ktx.app/ActivityStack/start/#java.lang.Class[android.app.Activity]#kotlin.collections.Map[kotlin.String,java.io.Serializable]?/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/start.html
 $dokka.location:com.ayvytr.ktx.app/ActivityStack/startAndFinishOthers/#android.content.Intent/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/start-and-finish-others.html
