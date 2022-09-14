@@ -158,6 +158,8 @@ $dokka.location:com.ayvytr.ktx.provider/ContextProvider/insert/#android.net.Uri#
 $dokka.location:com.ayvytr.ktx.provider/ContextProvider/onCreate/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.provider/-context-provider/on-create.html
 $dokka.location:com.ayvytr.ktx.provider/ContextProvider/query/#android.net.Uri#kotlin.Array[kotlin.String]?#kotlin.String?#kotlin.Array[kotlin.String]?#kotlin.String?/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.provider/-context-provider/query.html
 $dokka.location:com.ayvytr.ktx.provider/ContextProvider/update/#android.net.Uri#android.content.ContentValues?#kotlin.String?#kotlin.Array[kotlin.String]?/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.provider/-context-provider/update.html
+$dokka.location:com.ayvytr.ktx.tools////PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.tools/index.html
+$dokka.location:com.ayvytr.ktx.tools//bundleOf/#kotlin.Array[kotlin.Pair[kotlin.String,kotlin.Any?]]/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.tools/bundle-of.html
 $dokka.location:com.ayvytr.ktx.ui.dialog////PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.dialog/index.html
 $dokka.location:com.ayvytr.ktx.ui.dialog/BaseDialog///PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.dialog/-base-dialog/index.html
 $dokka.location:com.ayvytr.ktx.ui.dialog/BaseDialog/BaseDialog/#android.content.Context#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.dialog/-base-dialog/-base-dialog.html
@@ -262,12 +264,18 @@ $dokka.location:com.ayvytr.ktx.ui//setTextWithSelection/android.widget.EditText#
 $dokka.location:com.ayvytr.ktx.ui//show/android.view.View#kotlin.Boolean/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/show.html
 $dokka.location:com.ayvytr.ktx.ui//showActionBar/android.app.Activity#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/show-action-bar.html
 $dokka.location:com.ayvytr.ktx.ui//showInputMethod/android.widget.EditText#kotlin.Boolean/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/show-input-method.html
+$dokka.location:com.ayvytr.ktx.ui//startActivity/android.content.Context#kotlin.Array[kotlin.Pair[kotlin.String,kotlin.Any?]]/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/start-activity.html
+$dokka.location:com.ayvytr.ktx.ui//startActivity/androidx.fragment.app.Fragment#kotlin.Array[kotlin.Pair[kotlin.String,kotlin.Any?]]/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/start-activity.html
+$dokka.location:com.ayvytr.ktx.ui//startActivityForResult/android.app.Activity#kotlin.Int#kotlin.Array[kotlin.Pair[kotlin.String,kotlin.Any?]]/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/start-activity-for-result.html
+$dokka.location:com.ayvytr.ktx.ui//startActivityForResult/androidx.fragment.app.Fragment#kotlin.Int#kotlin.Array[kotlin.Pair[kotlin.String,kotlin.Any?]]/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/start-activity-for-result.html
 $dokka.location:com.ayvytr.ktx.ui//textChange/android.widget.EditText#kotlin.Int#kotlin.Boolean#kotlin.Function1[kotlin.String,kotlin.Unit]/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/text-change.html
 $dokka.location:com.ayvytr.ktx.ui//toNightMode/androidx.appcompat.app.AppCompatActivity#kotlin.Boolean/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/to-night-mode.html
+$dokka.location:com.ayvytr.ktx.ui//unselect/android.view.View#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/unselect.html
 com.ayvytr.ktx.app
 com.ayvytr.ktx.bitmap
 com.ayvytr.ktx.context
 com.ayvytr.ktx.provider
+com.ayvytr.ktx.tools
 com.ayvytr.ktx.ui
 com.ayvytr.ktx.ui.dialog
 com.ayvytr.ktx.ui.edittext
