@@ -80,8 +80,8 @@ $dokka.location:com.ayvytr.baseadapter/ViewHolder/setBackgroundColor/#kotlin.Int
 $dokka.location:com.ayvytr.baseadapter/ViewHolder/setBackgroundRes/#kotlin.Int#kotlin.Int/PointingToDeclaration/base-adapter/com.ayvytr.baseadapter/-view-holder/set-background-res.html
 $dokka.location:com.ayvytr.baseadapter/ViewHolder/setChecked/#kotlin.Int#kotlin.Boolean/PointingToDeclaration/base-adapter/com.ayvytr.baseadapter/-view-holder/set-checked.html
 $dokka.location:com.ayvytr.baseadapter/ViewHolder/setEnabled/#kotlin.Int#kotlin.Boolean/PointingToDeclaration/base-adapter/com.ayvytr.baseadapter/-view-holder/set-enabled.html
-$dokka.location:com.ayvytr.baseadapter/ViewHolder/setImage/#kotlin.Int#android.graphics.Bitmap?/PointingToDeclaration/base-adapter/com.ayvytr.baseadapter/-view-holder/set-image.html
-$dokka.location:com.ayvytr.baseadapter/ViewHolder/setImage/#kotlin.Int#android.graphics.drawable.Drawable?/PointingToDeclaration/base-adapter/com.ayvytr.baseadapter/-view-holder/set-image.html
+$dokka.location:com.ayvytr.baseadapter/ViewHolder/setImage/#kotlin.Int#android.graphics.Bitmap/PointingToDeclaration/base-adapter/com.ayvytr.baseadapter/-view-holder/set-image.html
+$dokka.location:com.ayvytr.baseadapter/ViewHolder/setImage/#kotlin.Int#android.graphics.drawable.Drawable/PointingToDeclaration/base-adapter/com.ayvytr.baseadapter/-view-holder/set-image.html
 $dokka.location:com.ayvytr.baseadapter/ViewHolder/setImage/#kotlin.Int#kotlin.Int/PointingToDeclaration/base-adapter/com.ayvytr.baseadapter/-view-holder/set-image.html
 $dokka.location:com.ayvytr.baseadapter/ViewHolder/setMax/#kotlin.Int#kotlin.Int/PointingToDeclaration/base-adapter/com.ayvytr.baseadapter/-view-holder/set-max.html
 $dokka.location:com.ayvytr.baseadapter/ViewHolder/setOnClickListener/#kotlin.Int#android.view.View.OnClickListener?/PointingToDeclaration/base-adapter/com.ayvytr.baseadapter/-view-holder/set-on-click-listener.html
@@ -98,7 +98,7 @@ $dokka.location:com.ayvytr.baseadapter/ViewHolder/setText/#kotlin.Int#kotlin.Cha
 $dokka.location:com.ayvytr.baseadapter/ViewHolder/setText/#kotlin.Int#kotlin.Int/PointingToDeclaration/base-adapter/com.ayvytr.baseadapter/-view-holder/set-text.html
 $dokka.location:com.ayvytr.baseadapter/ViewHolder/setTextColor/#kotlin.Int#kotlin.Int/PointingToDeclaration/base-adapter/com.ayvytr.baseadapter/-view-holder/set-text-color.html
 $dokka.location:com.ayvytr.baseadapter/ViewHolder/setTextColorRes/#kotlin.Int#kotlin.Int/PointingToDeclaration/base-adapter/com.ayvytr.baseadapter/-view-holder/set-text-color-res.html
-$dokka.location:com.ayvytr.baseadapter/ViewHolder/setTypeface/#android.graphics.Typeface?#kotlin.IntArray/PointingToDeclaration/base-adapter/com.ayvytr.baseadapter/-view-holder/set-typeface.html
+$dokka.location:com.ayvytr.baseadapter/ViewHolder/setTypeface/#android.graphics.Typeface#kotlin.IntArray/PointingToDeclaration/base-adapter/com.ayvytr.baseadapter/-view-holder/set-typeface.html
 $dokka.location:com.ayvytr.baseadapter/ViewHolder/setVisible/#kotlin.Int#kotlin.Int/PointingToDeclaration/base-adapter/com.ayvytr.baseadapter/-view-holder/set-visible.html
 com.ayvytr.baseadapter
 
