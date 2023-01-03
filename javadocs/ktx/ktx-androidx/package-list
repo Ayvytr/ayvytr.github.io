@@ -163,7 +163,7 @@ $dokka.location:com.ayvytr.ktx.tools//bundleOf/#kotlin.Array[kotlin.Pair[kotlin.
 $dokka.location:com.ayvytr.ktx.ui.dialog////PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.dialog/index.html
 $dokka.location:com.ayvytr.ktx.ui.dialog/BaseDialog///PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.dialog/-base-dialog/index.html
 $dokka.location:com.ayvytr.ktx.ui.dialog/BaseDialog/BaseDialog/#android.content.Context#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.dialog/-base-dialog/-base-dialog.html
-$dokka.location:com.ayvytr.ktx.ui.dialog/BaseDialog/setFullWidth/#kotlin.Boolean/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.dialog/-base-dialog/set-full-width.html
+$dokka.location:com.ayvytr.ktx.ui.dialog/BaseDialog/isFullWidth/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.dialog/-base-dialog/is-full-width.html
 $dokka.location:com.ayvytr.ktx.ui.dialog/BaseDialog/setGravity/#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.dialog/-base-dialog/set-gravity.html
 $dokka.location:com.ayvytr.ktx.ui.dialog/BaseDialog/show/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.dialog/-base-dialog/show.html
 $dokka.location:com.ayvytr.ktx.ui.edittext////PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.edittext/index.html
@@ -237,6 +237,7 @@ $dokka.location:com.ayvytr.ktx.ui.spanner/Spanner/underline/#/PointingToDeclarat
 $dokka.location:com.ayvytr.ktx.ui////PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/index.html
 $dokka.location:com.ayvytr.ktx.ui//addFilters/android.widget.EditText#kotlin.Array[android.text.InputFilter]/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/add-filters.html
 $dokka.location:com.ayvytr.ktx.ui//addFilters/android.widget.EditText#kotlin.collections.List[android.text.InputFilter]/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/add-filters.html
+$dokka.location:com.ayvytr.ktx.ui//context/android.app.Activity#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/context.html
 $dokka.location:com.ayvytr.ktx.ui//fullscreen/android.app.Activity#kotlin.Boolean#kotlin.Boolean/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/fullscreen.html
 $dokka.location:com.ayvytr.ktx.ui//getContext/android.app.Activity#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/get-context.html
 $dokka.location:com.ayvytr.ktx.ui//getViewId/android.view.View#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/get-view-id.html
