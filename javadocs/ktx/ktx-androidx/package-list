@@ -12,12 +12,10 @@ $dokka.location:com.ayvytr.ktx.app/ActivityStack/finishByName/#kotlin.String/Poi
 $dokka.location:com.ayvytr.ktx.app/ActivityStack/finishBySimpleName/#kotlin.String/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/finish-by-simple-name.html
 $dokka.location:com.ayvytr.ktx.app/ActivityStack/finishCurrent/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/finish-current.html
 $dokka.location:com.ayvytr.ktx.app/ActivityStack/finishExceptTop/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/finish-except-top.html
-$dokka.location:com.ayvytr.ktx.app/ActivityStack/forceClose/#kotlin.Boolean/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/force-close.html
 $dokka.location:com.ayvytr.ktx.app/ActivityStack/getCurrentActivity/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/get-current-activity.html
 $dokka.location:com.ayvytr.ktx.app/ActivityStack/getRunningActivityCount/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/get-running-activity-count.html
 $dokka.location:com.ayvytr.ktx.app/ActivityStack/isForeground/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/is-foreground.html
 $dokka.location:com.ayvytr.ktx.app/ActivityStack/killApp/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/kill-app.html
-$dokka.location:com.ayvytr.ktx.app/ActivityStack/killSelf/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/kill-self.html
 $dokka.location:com.ayvytr.ktx.app/ActivityStack/registerCallback/#android.app.Application#kotlin.Function1[kotlin.Boolean,kotlin.Unit]/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/register-callback.html
 $dokka.location:com.ayvytr.ktx.app/ActivityStack/start/#android.content.Intent/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/start.html
 $dokka.location:com.ayvytr.ktx.app/ActivityStack/start/#java.lang.Class[android.app.Activity]#kotlin.collections.Map[kotlin.String,java.io.Serializable]?/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.app/-activity-stack/start.html
@@ -49,8 +47,6 @@ $dokka.location:com.ayvytr.ktx.context//getCameraManager/android.content.Context
 $dokka.location:com.ayvytr.ktx.context//getCaptioningManager/android.content.Context#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/get-captioning-manager.html
 $dokka.location:com.ayvytr.ktx.context//getCarrierConfigManager/android.content.Context#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/get-carrier-config-manager.html
 $dokka.location:com.ayvytr.ktx.context//getClipboardManager/android.content.Context#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/get-clipboard-manager.html
-$dokka.location:com.ayvytr.ktx.context//getColor2/android.content.Context#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/get-color2.html
-$dokka.location:com.ayvytr.ktx.context//getColor2/androidx.fragment.app.Fragment#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/get-color2.html
 $dokka.location:com.ayvytr.ktx.context//getColorCompat/android.content.Context#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/get-color-compat.html
 $dokka.location:com.ayvytr.ktx.context//getColorCompat/androidx.fragment.app.Fragment#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/get-color-compat.html
 $dokka.location:com.ayvytr.ktx.context//getConfiguration/android.content.Context#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/get-configuration.html
@@ -64,8 +60,6 @@ $dokka.location:com.ayvytr.ktx.context//getDisplayManagerCompat/android.content.
 $dokka.location:com.ayvytr.ktx.context//getDisplayMetrics/android.content.Context#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/get-display-metrics.html
 $dokka.location:com.ayvytr.ktx.context//getDisplaySize/android.content.Context#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/get-display-size.html
 $dokka.location:com.ayvytr.ktx.context//getDownloadManager/android.content.Context#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/get-download-manager.html
-$dokka.location:com.ayvytr.ktx.context//getDrawable2/android.content.Context#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/get-drawable2.html
-$dokka.location:com.ayvytr.ktx.context//getDrawable2/androidx.fragment.app.Fragment#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/get-drawable2.html
 $dokka.location:com.ayvytr.ktx.context//getDrawableArray/android.content.Context#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/get-drawable-array.html
 $dokka.location:com.ayvytr.ktx.context//getDrawableArray/androidx.fragment.app.Fragment#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/get-drawable-array.html
 $dokka.location:com.ayvytr.ktx.context//getDrawableCompat/android.content.Context#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/get-drawable-compat.html
@@ -117,8 +111,6 @@ $dokka.location:com.ayvytr.ktx.context//getWindowManager/android.content.Context
 $dokka.location:com.ayvytr.ktx.context//hideStatusBar/android.app.Activity#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/hide-status-bar.html
 $dokka.location:com.ayvytr.ktx.context//inflate/android.content.Context#kotlin.Int#android.view.ViewGroup?#kotlin.Boolean/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/inflate.html
 $dokka.location:com.ayvytr.ktx.context//inflate/androidx.fragment.app.Fragment#kotlin.Int#android.view.ViewGroup?#kotlin.Boolean/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/inflate.html
-$dokka.location:com.ayvytr.ktx.context//inflateRv/android.content.Context#kotlin.Int#android.view.ViewGroup?/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/inflate-rv.html
-$dokka.location:com.ayvytr.ktx.context//inflateRv/androidx.fragment.app.Fragment#kotlin.Int#android.view.ViewGroup?/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/inflate-rv.html
 $dokka.location:com.ayvytr.ktx.context//isLandscape/android.content.Context#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/is-landscape.html
 $dokka.location:com.ayvytr.ktx.context//isMobileDataConnected/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/is-mobile-data-connected.html
 $dokka.location:com.ayvytr.ktx.context//isNetworkAvailable/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/is-network-available.html
@@ -147,6 +139,9 @@ $dokka.location:com.ayvytr.ktx.context//toastLong/android.content.Context#kotlin
 $dokka.location:com.ayvytr.ktx.context//toastLong/android.content.Context#kotlin.String/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/toast-long.html
 $dokka.location:com.ayvytr.ktx.context//toastLong/androidx.fragment.app.Fragment#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/toast-long.html
 $dokka.location:com.ayvytr.ktx.context//toastLong/androidx.fragment.app.Fragment#kotlin.String/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.context/toast-long.html
+$dokka.location:com.ayvytr.ktx.file////PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.file/index.html
+$dokka.location:com.ayvytr.ktx.file//toUriCompat/java.io.File#kotlin.String/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.file/to-uri-compat.html
+$dokka.location:com.ayvytr.ktx.file//uriAuthority/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.file/uri-authority.html
 $dokka.location:com.ayvytr.ktx.provider////PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.provider/index.html
 $dokka.location:com.ayvytr.ktx.provider/ContextProvider.Companion///PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.provider/-context-provider/-companion/index.html
 $dokka.location:com.ayvytr.ktx.provider/ContextProvider.Companion/getContext/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.provider/-context-provider/-companion/get-context.html
@@ -163,7 +158,6 @@ $dokka.location:com.ayvytr.ktx.tools//bundleOf/#kotlin.Array[kotlin.Pair[kotlin.
 $dokka.location:com.ayvytr.ktx.ui.dialog////PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.dialog/index.html
 $dokka.location:com.ayvytr.ktx.ui.dialog/BaseDialog///PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.dialog/-base-dialog/index.html
 $dokka.location:com.ayvytr.ktx.ui.dialog/BaseDialog/BaseDialog/#android.content.Context#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.dialog/-base-dialog/-base-dialog.html
-$dokka.location:com.ayvytr.ktx.ui.dialog/BaseDialog/isFullWidth/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.dialog/-base-dialog/is-full-width.html
 $dokka.location:com.ayvytr.ktx.ui.dialog/BaseDialog/setGravity/#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.dialog/-base-dialog/set-gravity.html
 $dokka.location:com.ayvytr.ktx.ui.dialog/BaseDialog/show/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.dialog/-base-dialog/show.html
 $dokka.location:com.ayvytr.ktx.ui.edittext////PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.edittext/index.html
@@ -236,7 +230,6 @@ $dokka.location:com.ayvytr.ktx.ui.spanner/Spanner/textColorRes/#kotlin.Int#kotli
 $dokka.location:com.ayvytr.ktx.ui.spanner/Spanner/underline/#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui.spanner/-spanner/underline.html
 $dokka.location:com.ayvytr.ktx.ui////PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/index.html
 $dokka.location:com.ayvytr.ktx.ui//addFilters/android.widget.EditText#kotlin.Array[android.text.InputFilter]/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/add-filters.html
-$dokka.location:com.ayvytr.ktx.ui//addFilters/android.widget.EditText#kotlin.collections.List[android.text.InputFilter]/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/add-filters.html
 $dokka.location:com.ayvytr.ktx.ui//context/android.app.Activity#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/context.html
 $dokka.location:com.ayvytr.ktx.ui//fullscreen/android.app.Activity#kotlin.Boolean#kotlin.Boolean/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/fullscreen.html
 $dokka.location:com.ayvytr.ktx.ui//getContext/android.app.Activity#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/get-context.html
@@ -251,7 +244,7 @@ $dokka.location:com.ayvytr.ktx.ui//isHide/android.view.View#/PointingToDeclarati
 $dokka.location:com.ayvytr.ktx.ui//isInvisible/android.view.View#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/is-invisible.html
 $dokka.location:com.ayvytr.ktx.ui//isShow/android.view.View#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/is-show.html
 $dokka.location:com.ayvytr.ktx.ui//isVisible/android.view.View#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/is-visible.html
-$dokka.location:com.ayvytr.ktx.ui//onClick/android.view.View#kotlin.Int#kotlin.Int#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/on-click.html
+$dokka.location:com.ayvytr.ktx.ui//onClick/android.view.View#kotlin.Int#kotlin.Int#kotlin.Function1[android.view.View,kotlin.Unit]/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/on-click.html
 $dokka.location:com.ayvytr.ktx.ui//selectText/android.widget.EditText#kotlin.CharSequence?#kotlin.Boolean/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/select-text.html
 $dokka.location:com.ayvytr.ktx.ui//selectText/android.widget.EditText#kotlin.Int#kotlin.Boolean/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/select-text.html
 $dokka.location:com.ayvytr.ktx.ui//setActivityTitle/android.app.Activity#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/set-activity-title.html
@@ -259,9 +252,12 @@ $dokka.location:com.ayvytr.ktx.ui//setActivityTitle/android.app.Activity#kotlin.
 $dokka.location:com.ayvytr.ktx.ui//setActivityTitle/androidx.fragment.app.Fragment#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/set-activity-title.html
 $dokka.location:com.ayvytr.ktx.ui//setActivityTitle/androidx.fragment.app.Fragment#kotlin.String/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/set-activity-title.html
 $dokka.location:com.ayvytr.ktx.ui//setLandscape/android.app.Activity#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/set-landscape.html
+$dokka.location:com.ayvytr.ktx.ui//setLightStatusBar/android.app.Activity#kotlin.Boolean/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/set-light-status-bar.html
+$dokka.location:com.ayvytr.ktx.ui//setNavigationBarBgColor/android.app.Activity#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/set-navigation-bar-bg-color.html
+$dokka.location:com.ayvytr.ktx.ui//setNavigationBarBgColorRes/android.app.Activity#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/set-navigation-bar-bg-color-res.html
 $dokka.location:com.ayvytr.ktx.ui//setPortrait/android.app.Activity#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/set-portrait.html
-$dokka.location:com.ayvytr.ktx.ui//setText2/android.widget.EditText#kotlin.CharSequence?/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/set-text2.html
-$dokka.location:com.ayvytr.ktx.ui//setTextWithSelection/android.widget.EditText#kotlin.CharSequence?/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/set-text-with-selection.html
+$dokka.location:com.ayvytr.ktx.ui//setStatusBarBgColor/android.app.Activity#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/set-status-bar-bg-color.html
+$dokka.location:com.ayvytr.ktx.ui//setStatusBarBgColorRes/android.app.Activity#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/set-status-bar-bg-color-res.html
 $dokka.location:com.ayvytr.ktx.ui//show/android.view.View#kotlin.Boolean/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/show.html
 $dokka.location:com.ayvytr.ktx.ui//showActionBar/android.app.Activity#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/show-action-bar.html
 $dokka.location:com.ayvytr.ktx.ui//showInputMethod/android.widget.EditText#kotlin.Boolean/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/show-input-method.html
@@ -275,6 +271,7 @@ $dokka.location:com.ayvytr.ktx.ui//unselect/android.view.View#/PointingToDeclara
 com.ayvytr.ktx.app
 com.ayvytr.ktx.bitmap
 com.ayvytr.ktx.context
+com.ayvytr.ktx.file
 com.ayvytr.ktx.provider
 com.ayvytr.ktx.tools
 com.ayvytr.ktx.ui
