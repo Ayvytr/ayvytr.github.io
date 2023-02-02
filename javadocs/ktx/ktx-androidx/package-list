@@ -251,11 +251,11 @@ $dokka.location:com.ayvytr.ktx.ui//setActivityTitle/android.app.Activity#kotlin.
 $dokka.location:com.ayvytr.ktx.ui//setActivityTitle/android.app.Activity#kotlin.String/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/set-activity-title.html
 $dokka.location:com.ayvytr.ktx.ui//setActivityTitle/androidx.fragment.app.Fragment#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/set-activity-title.html
 $dokka.location:com.ayvytr.ktx.ui//setActivityTitle/androidx.fragment.app.Fragment#kotlin.String/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/set-activity-title.html
-$dokka.location:com.ayvytr.ktx.ui//setLandscape/android.app.Activity#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/set-landscape.html
+$dokka.location:com.ayvytr.ktx.ui//setLandscape/android.app.Activity#kotlin.Boolean/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/set-landscape.html
 $dokka.location:com.ayvytr.ktx.ui//setLightStatusBar/android.app.Activity#kotlin.Boolean/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/set-light-status-bar.html
 $dokka.location:com.ayvytr.ktx.ui//setNavigationBarBgColor/android.app.Activity#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/set-navigation-bar-bg-color.html
 $dokka.location:com.ayvytr.ktx.ui//setNavigationBarBgColorRes/android.app.Activity#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/set-navigation-bar-bg-color-res.html
-$dokka.location:com.ayvytr.ktx.ui//setPortrait/android.app.Activity#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/set-portrait.html
+$dokka.location:com.ayvytr.ktx.ui//setPortrait/android.app.Activity#kotlin.Boolean/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/set-portrait.html
 $dokka.location:com.ayvytr.ktx.ui//setStatusBarBgColor/android.app.Activity#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/set-status-bar-bg-color.html
 $dokka.location:com.ayvytr.ktx.ui//setStatusBarBgColorRes/android.app.Activity#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/set-status-bar-bg-color-res.html
 $dokka.location:com.ayvytr.ktx.ui//show/android.view.View#kotlin.Boolean/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/show.html
