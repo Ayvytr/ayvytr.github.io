@@ -244,7 +244,7 @@ $dokka.location:com.ayvytr.ktx.ui//isHide/android.view.View#/PointingToDeclarati
 $dokka.location:com.ayvytr.ktx.ui//isInvisible/android.view.View#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/is-invisible.html
 $dokka.location:com.ayvytr.ktx.ui//isShow/android.view.View#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/is-show.html
 $dokka.location:com.ayvytr.ktx.ui//isVisible/android.view.View#/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/is-visible.html
-$dokka.location:com.ayvytr.ktx.ui//onClick/android.view.View#kotlin.Int#kotlin.Int#kotlin.Function1[android.view.View,kotlin.Unit]/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/on-click.html
+$dokka.location:com.ayvytr.ktx.ui//onClick/TypeParam(bounds=[android.view.View])#kotlin.Int#kotlin.Int#kotlin.Function1[TypeParam(bounds=[android.view.View]),kotlin.Unit]/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/on-click.html
 $dokka.location:com.ayvytr.ktx.ui//selectText/android.widget.EditText#kotlin.CharSequence?#kotlin.Boolean/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/select-text.html
 $dokka.location:com.ayvytr.ktx.ui//selectText/android.widget.EditText#kotlin.Int#kotlin.Boolean/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/select-text.html
 $dokka.location:com.ayvytr.ktx.ui//setActivityTitle/android.app.Activity#kotlin.Int/PointingToDeclaration/ktx-androidx/com.ayvytr.ktx.ui/set-activity-title.html
